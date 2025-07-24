@@ -18,20 +18,22 @@
 <!-- <div id="navbar-container"></div> -->
 
   <!-- Top Bar -->
-  <div class="top-bar">
-    <div class="scroll-container">
-      <div class="scroll-track">
-        <div class="scroll-content">
-          <span><strong>+91 8830439424</strong></span>
-          <span><strong>aadifuturesystems@gmail.com</strong></span>
-        </div>
-        <div class="scroll-content">
-          <span><strong>+91 8830439424</strong></span>
-          <span><strong>aadifuturesystems@gmail.com</strong></span>
-        </div>
-      </div>
-    </div>
+<div class="top-bar" style="width: 100%; overflow: hidden; white-space: nowrap;   background: white; color: #444; font-family: sans-serif; padding: 10px 0; position: relative;">
+  <div class="scroll-container" style="display: inline-block; white-space: nowrap; animation: scrollText 20s linear infinite;">
+    <span style="display: inline-block; padding-right: 50px;">
+      +91 8830439424 &nbsp;&nbsp;&nbsp;&nbsp; aadifuturesystems@gmail.com
+    </span>
+    <span style="display: inline-block; padding-right: 50px;">
+      +91 8830439424 &nbsp;&nbsp;&nbsp;&nbsp;  aadifuturesystems@gmail.com
+    </span>
+    <span style="display: inline-block; padding-right: 50px;">
+      +91 8830439424 &nbsp;&nbsp;&nbsp;&nbsp; aadifuturesystems@gmail.com
+    </span>
+    <span style="display: inline-block; padding-right: 50px;">
+      +91 8830439424 &nbsp;&nbsp;&nbsp;&nbsp; aadifuturesystems@gmail.com 
+    </span>
   </div>
+</div>
 
   <!-- Navbar -->
   <nav class="navbar">
@@ -126,7 +128,6 @@ submenuToggle.addEventListener('click', () => {
 });
 
 </script>  
-
 
 
 <!-- Hero Section -->
@@ -314,7 +315,7 @@ submenuToggle.addEventListener('click', () => {
     <!-- Custom SVG wave at the top -->
     <div class="wave-top">
       <svg viewBox="0 0 1440 100" xmlns="http://www.w3.org/2000/svg">
-        <path fill="#81c45d" fill-opacity="1" d="M0,32L48,48C96,64,192,96,288,96C384,96,480,64,576,53.3C672,43,768,53,864,74.7C960,96,1056,128,1152,138.7C1248,149,1344,139,1392,133.3L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
+        <path fill="#81c45d" fill-opacity="1" d="M0,32 C120,64 240,96 360,96 C480,96 600,64 720,53 C840,43 960,53 1080,75 C1200,96 1320,100 1440,90 L1440,0 L0,0 Z"></path>
       </svg>
     </div>
 
@@ -383,8 +384,8 @@ submenuToggle.addEventListener('click', () => {
     <p class="subtitle">Feedback that fuels our commitment to quality and comfort.</p>
 
     <!-- Navigation Buttons -->
-    <button class="testimonials-scroll-btn tes-left" onclick="scrollSlider(-1)">&#10094;</button>
-    <button class="testimonials-scroll-btn tes-right" onclick="scrollSlider(1)">&#10095;</button>
+    <!-- <button class="testimonials-scroll-btn tes-left" onclick="scrollSlider(-1)">&#10094;</button>
+    <button class="testimonials-scroll-btn tes-right" onclick="scrollSlider(1)">&#10095;</button> -->
 
     <!-- Slider Container -->
     <div class="testimonials" id="testimonialSlider">
@@ -466,23 +467,6 @@ submenuToggle.addEventListener('click', () => {
     </div>
   </section>
 
-
-<!-- Bottom - Top Scroller -->
-<button onclick="scrollToTop()" id="backToTopBtn" title="Go to top">&#8679;</button>
-
-<script>
-window.onscroll = function() {
-  const btn = document.getElementById("backToTopBtn");
-  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-    btn.style.display = "block";
-  } else {
-    btn.style.display = "none";
-  }
-};
-function scrollToTop() {
-  window.scrollTo({ top: 0, behavior: 'smooth' });
-}
-</script>
 
 
 <!-- Footer -->

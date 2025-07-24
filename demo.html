@@ -3,54 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <title>Independent Scrolling Email & Mobile</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-    }
-
-    .scroll-container {
-      display: flex;
-      background-color: #f0f0f0;
-      height: 40px;
-      overflow: hidden;
-    }
-
-    .scroll-item {
-      position: relative;
-      flex: 1;
-      overflow: hidden;
-    }
-
-    .scroll-text {
-      position: absolute;
-      white-space: nowrap;
-      animation: scroll-left 8s linear infinite;
-      font-size: 18px;
-      font-family: sans-serif;
-      padding-left: 100%;
-    }
-
-    @keyframes scroll-left {
-      0% {
-        transform: translateX(0%);
-      }
-      100% {
-        transform: translateX(-100%);
-      }
-    }
-  </style>
+<style>
+  @keyframes scrollText {
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(-50%); } /* Adjust based on number of repeats */
+  }
+</style>
 </head>
 <body>
 
-  <div class="scroll-container">
-    <div class="scroll-item">
-      <div class="scroll-text">📧 email@example.com</div>
-    </div>
-    <div class="scroll-item">
-      <div class="scroll-text">📱 +91 9876543210</div>
-    </div>
+<div class="top-bar" style="width: 100%; overflow: hidden; white-space: nowrap;   background: white; color: #444; font-family: sans-serif; padding: 10px 0; position: relative;">
+  <div class="scroll-container" style="display: inline-block; white-space: nowrap; animation: scrollText 20s linear infinite;">
+    <span style="display: inline-block; padding-right: 50px;">
+      +91 8830439424 &nbsp;&nbsp;&nbsp;&nbsp; aadifuturesystems@gmail.com
+    </span>
+    <span style="display: inline-block; padding-right: 50px;">
+      +91 8830439424 &nbsp;&nbsp;&nbsp;&nbsp;  aadifuturesystems@gmail.com
+    </span>
+    <span style="display: inline-block; padding-right: 50px;">
+      +91 8830439424 &nbsp;&nbsp;&nbsp;&nbsp; aadifuturesystems@gmail.com
+    </span>
+    <span style="display: inline-block; padding-right: 50px;">
+      +91 8830439424 &nbsp;&nbsp;&nbsp;&nbsp; aadifuturesystems@gmail.com 
+    </span>
   </div>
+</div>
+
+
 
 </body>
 </html>
+
+

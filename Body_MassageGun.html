@@ -12,20 +12,22 @@
 <!-- <div id="navbar-container"></div> -->
 
   <!-- Top Bar -->
-  <div class="top-bar">
-    <div class="scroll-container">
-      <div class="scroll-track">
-        <div class="scroll-content">
-          <span><strong>+91 8830439424</strong></span>
-          <span><strong>aadifuturesystems@gmail.com</strong></span>
-        </div>
-        <div class="scroll-content">
-          <span><strong>+91 8830439424</strong></span>
-          <span><strong>aadifuturesystems@gmail.com</strong></span>
-        </div>
-      </div>
-    </div>
+<div class="top-bar" style="width: 100%; overflow: hidden; white-space: nowrap;   background: white; color: #444; font-family: sans-serif; padding: 10px 0; position: relative;">
+  <div class="scroll-container" style="display: inline-block; white-space: nowrap; animation: scrollText 20s linear infinite;">
+    <span style="display: inline-block; padding-right: 50px;">
+      +91 8830439424 &nbsp;&nbsp;&nbsp;&nbsp; aadifuturesystems@gmail.com
+    </span>
+    <span style="display: inline-block; padding-right: 50px;">
+      +91 8830439424 &nbsp;&nbsp;&nbsp;&nbsp;  aadifuturesystems@gmail.com
+    </span>
+    <span style="display: inline-block; padding-right: 50px;">
+      +91 8830439424 &nbsp;&nbsp;&nbsp;&nbsp; aadifuturesystems@gmail.com
+    </span>
+    <span style="display: inline-block; padding-right: 50px;">
+      +91 8830439424 &nbsp;&nbsp;&nbsp;&nbsp; aadifuturesystems@gmail.com 
+    </span>
   </div>
+</div>
 
   <!-- Navbar -->
   <nav class="navbar">
@@ -119,7 +121,7 @@ submenuToggle.addEventListener('click', () => {
   submenu.style.display = submenu.style.display === 'flex' ? 'none' : 'flex';
 });
 
-</script>  
+</script>   
 
 
 
@@ -147,7 +149,8 @@ submenuToggle.addEventListener('click', () => {
   function redirectToContact() {
     const productTitle = document.querySelector('.title').innerText;
     const encodedTitle = encodeURIComponent(productTitle);
-    window.location.href = `contact.html?subject=${encodedTitle}`;
+    // Add #contactForm to scroll to form section after redirection
+    window.location.href = `contact.html?subject=${encodedTitle}#contactForm`;
   }
 </script>
 
@@ -174,22 +177,6 @@ submenuToggle.addEventListener('click', () => {
   </div>
 </section>
 
-<!-- Bottom - Top Scroller -->
-<button onclick="scrollToTop()" id="backToTopBtn" title="Go to top">&#8679;</button>
-
-<script>
-window.onscroll = function() {
-  const btn = document.getElementById("backToTopBtn");
-  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-    btn.style.display = "block";
-  } else {
-    btn.style.display = "none";
-  }
-};
-function scrollToTop() {
-  window.scrollTo({ top: 0, behavior: 'smooth' });
-}
-</script>
 
 <!-- Footer -->
 <div id="footer-container"></div>
