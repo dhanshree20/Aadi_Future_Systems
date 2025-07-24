@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aadi Future Systems</title>
+    <link rel = "icon" href = "images/logo.jpeg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Correct Font Awesome CDN -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body>
+<!-- Navbar -->
+<!-- <div id="navbar-container"></div> -->
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="scroll-container">
+      <div class="scroll-track">
+        <div class="scroll-content">
+          <span><strong>+91 8830439424</strong></span>
+          <span><strong>aadifuturesystems@gmail.com</strong></span>
+        </div>
+        <div class="scroll-content">
+          <span><strong>+91 8830439424</strong></span>
+          <span><strong>aadifuturesystems@gmail.com</strong></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <!-- Mobile Header -->
+    <div class="mobile-header">
+      <img src="images/logo1.png" alt="Logo" class="mobile-logo" />
+      <div class="hamburger" id="hamburger">&#9776;</div>
+    </div>
+
+    <!-- Mobile Slide Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <div class="close-btn" id="closeBtn">&times;</div>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="product.html">Product</a>
+      <!-- <div class="submenu-toggle">Product <i class="fas fa-chevron-down"></i></div>
+       <div class="submenu">
+        <a href="#">Full Body</a>
+        <a href="#">Recliner</a>
+        <a href="#">Heated</a>
+        <a href="#">Compact</a>
+      </div> -->
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+
+    <!-- Desktop Left Dropdowns -->
+    <div class="nav-left">
+      <div class="dropdown">
+       <a href="product.html?category=massage" class="dropbtn">Massage Chair <i class="fas fa-caret-down"></i></a>
+<div class="dropdown-content">
+  <ul class="dropdown-list">
+    <li><a href="Kings_Elite_Massage_Chair.html">Kings Elite Massage Chair</a></li>
+    <li><a href="Dream_Relax_FullBody.html">Dream Relax Full Body Massage Chair</a></li>
+    <li><a href="Legacy_Massage_Chair.html">Legacy Massage Chair</a></li>
+    <li><a href="Highland_Massage_Chair.html">Highland Massage Chair</a></li>
+    <li><a href="Imperial_Massage_Chair.html">Imperial Massage Chair</a></li>
+    <li><a href="Maestro_Full_Body.html">Maestro Full Body Massage Chair</a></li>
+    <li><a href="Admiral_Massage_Chair.html">Admiral Massage Chair</a></li>
+    <li><a href="Zero_Gravity_MassageChair.html">Zero Gravity Massage Chair</a></li>
+    <li><a href="Lazydaze_Massage_Chair.html">Lazydaze Massage Chair</a></li>
+    <li><a href="Isnazz_Massage_Chair.html">Isnazz Massage Chair</a></li>
+  </ul>
+</div>
+      </div>
+      <div class="dropdown">
+        <a href="product.html?category=leg" class="dropbtn">Leg Massagers <i class="fas fa-caret-down"></i></a>
+<div class="dropdown-content">
+  <ul class="dropdown-list">
+    <li><a href="Reflex_Swing_ProLegMassager.html">Reflex Swing Pro</a></li>
+    <li><a href="Reflex_Swing_U_ComfortFootMassager.html">Reflex Swing U Comfort</a></li>
+    <li><a href="Leg_And_FootMassager.html">Leg And Foot Massager</a></li>
+  </ul>
+</div>
+      </div>
+    </div>
+
+    <!-- Desktop Center Logo -->
+    <div class="nav-center">
+      <img src="images/logo1.png" alt="Logo" />
+    </div>
+
+    <!-- Desktop Right Links -->
+    <div class="nav-right">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+  </nav>
+
+<script>
+  const hamburger = document.getElementById('hamburger');
+const mobileMenu = document.getElementById('mobileMenu');
+const closeBtn = document.getElementById('closeBtn');
+const submenuToggle = document.querySelector('.submenu-toggle');
+const submenu = document.querySelector('.submenu');
+
+// Open menu
+hamburger.addEventListener('click', () => {
+  mobileMenu.classList.add('active');
+});
+
+// Close menu
+closeBtn.addEventListener('click', () => {
+  mobileMenu.classList.remove('active');
+});
+
+// Toggle submenu
+submenuToggle.addEventListener('click', () => {
+  submenu.style.display = submenu.style.display === 'flex' ? 'none' : 'flex';
+});
+
+</script>  
+
+
+
+<!-- Hero Section -->
+
+  <div class="hero-section">
+    <div class="hero-content">
+      <h1>Innovative Wellness.<br><span class="highlight">Anytime. Anywhere.</span></h1>
+      <p>
+        Experience the future of wellness with AI-powered massage technology.<br>
+        Transform your health and well-being with Restolax's innovative solutions.
+      </p>
+    </div>
+  </div>
+
+
+  <!-- Poster Section -->
+
+<div class="slider-container">
+    <div class="slider" id="categorySlider">
+      <div class="category-card">
+        <img src="images/poster1.png" alt="Foot Massager">
+        <p>Recliners</p>
+      </div>
+      <div class="category-card">
+        <img src="images/poster2.png" alt="Massage Chair">
+        <p>Portable Massager</p>
+      </div>
+      <div class="category-card">
+        <img src="images/poster3.png" alt="Back Massager">
+        <p>Back Massager</p>
+      </div>
+      <div class="category-card">
+        <img src="images/poster4.png" alt="Recliners">
+        <p>Massage Chair</p>
+      </div>
+      <div class="category-card">
+        <img src="images/poster1.png" alt="Portable Massager">
+        <p>Recliners</p>
+      </div>
+      <!-- Duplicates for infinite effect -->
+      <div class="category-card">
+        <img src="images/poster5.png" alt="Foot Massager">
+        <p>Massage Gun</p>
+      </div>
+      <div class="category-card">
+        <img src="images/poster3.png" alt="Massage Chair">
+        <p>Back Massager</p>
+      </div>
+      <div class="category-card">
+        <img src="images/poster4.png" alt="Back Massager">
+        <p>Massage Chair</p>
+      </div>
+    </div>
+  </div>
+
+  
+<!-- Chara Section  -->
+ 
+<div class="container">
+     <!-- 1st Image -->
+    <div class="text-content">
+      <h1>AI Massage Mechanism</h1>
+      <p class="subtitle">Artificial Intelligence Human Hand Massage Mechanism</p>
+      <p class="description">
+        Multi-dimensional rollers that replicate the exact hand movements of a professional masseuse (kneading, tapping, rolling, shiatsu).
+      </p>
+    </div>
+    <div class="image-content">
+      <img src="images/char_3.png" alt="Massage Chair" />
+    </div>
+
+     <!-- 2nd Image -->
+    <div class="second-image-content">
+      <img src="images/char_2.png" alt="Massage Chair" />
+    </div>
+    <div class="second-text-content">
+      <h1>Full Body Airbag Massage</h1>
+      <!-- <p class="-secondsubtitle">Artificial Intelligence Human Hand Massage Mechanism</p> -->
+      <p class="second-description">
+        Airbags placed throughout the chair deliver soothing compression to shoulders, arms, legs, and feet. This technique improves blood circulation, relieves muscle tension, and provides a deeply relaxing full-body experience.
+      </p>
+    </div>
+
+
+     <!-- 3rd Image -->
+    <div class="left-text">
+      <h1>3D & 4D Massage Rollers</h1>
+      <p class="subtitle">Multi-directional rollers that mimic real human hand movements with <br> adjustable depth and rhythm. It offer a dynamic and life-like massage experience by moving in multiple directions—up, down, in, out, and even in circular motions.</p>
+    </div>
+       <div class="right-content">
+      <img src="images/char_1.png" alt="Unique Massage Chair" />
+      <p class="bottom-text">
+        Infrared heat technology to relax muscles and <br/>improve blood flow in the lumbar and leg areas.Special rollers target<br/>
+         foot acupuncture points to relieve fatigue and boost energy.
+      </p>
+    </div>
+  </div>
+
+
+  <!-- Product Section  -->
+
+  <section class="wellness-section">
+    <div class="left">
+      <img src="images/message_chair_1.jpg" alt="Massage Chair">
+      <div class="overlay-card">
+        <h2>Relaxation Starts Here</h2>
+        <a href="product.html" class="shop-btn">Explore Now →</a>
+      </div>
+    </div>
+
+    <div class="right">
+      <div class="category-box">
+        <img src="ProductImages/Highland_MassageChair/img1.webp" alt="Recliners">
+        <p>Recliners</p>
+      </div>
+      <div class="category-box">
+        <img src="ProductImages/Reflex_Swing_ProLegMassager/img1.webp" alt="Leg Massager">
+        <p>Leg Massager</p>
+      </div>
+      <div class="category-box">
+        <img src="ProductImages/Dream_Relax_FullBodyMassageChair/img1.webp" alt="Full Body Massager">
+        <p>Full Body Massager</p>
+      </div>
+      <div class="category-box">
+        <img src="ProductImages/Body_MassageGun/img1.webp" alt="Portable Massager">
+        <p>Massage Gun</p>
+      </div>
+    </div>
+  </section>
+
+  
+<!-- Product Cards Section -->
+  <section class="trending-header">
+    <h2>Trending Now</h2>
+    <p>Explore trending wellness products designed to upgrade your comfort and health.</p>
+  </section>
+
+  <div class="carousel-container">
+    <button class="nav-btn left-btn">&#8249;</button>
+    <div class="product-carousel" id="productSlider">
+      <div class="product-card">
+        <img src="ProductImages/Kings_Elite_MassageChair/img1.webp" alt="iRobo Ultima Massage Chair" />
+        <p class="category">Massage Chairs</p>
+        <h3>Kings Elite Massage Chair</h3>
+        <!-- <a href="#" class="view-more-btn">View More</a> -->
+      </div>
+
+      <div class="product-card">
+        <img src="ProductImages/Reflex_Swing_ProLegMassager/img1.webp" alt="iRobo iDream Massage Chair" />
+        <p class="category">Leg Massager</p>
+        <h3>Reflex Swing Pro</h3>
+        <!-- <a href="#" class="view-more-btn">View More</a> -->
+      </div>
+
+      <div class="product-card">
+        <img src="ProductImages/Kansya_Thali_FootMassageMachine/img1.webp" alt="iRobo iElegant Massage Chair" />
+        <p class="category">Foot Massager</p>
+        <h3>Kansya Thali Foot Massage Machine</h3>
+        <!-- <a href="#" class="view-more-btn">View More</a> -->
+      </div>
+
+      <div class="product-card">
+        <img src="ProductImages/Body_MassageGun/img1.webp" alt="iRobo iRoyal Massage Chair" />
+        <p class="category">Massage Gun</p>
+        <h3>Body Massage Gun</h3>
+        <!-- <a href="#" class="view-more-btn">View More</a> -->
+      </div>
+
+      <div class="product-card">
+        <img src="ProductImages/Dream_Relax_FullBodyMassageChair/img1.webp" alt="iRobo Ultima Massage Chair" />
+        <p class="category">Massage Chairs</p>
+        <h3>Dream Relax Full Body Massage Chair</h3>
+        <!-- <a href="#" class="view-more-btn">View More</a> -->
+      </div>
+    </div>
+    <a href="product.html" class="product-btn">Explore Now →</a>
+    <button class="nav-btn right-btn">&#8250;</button>
+  </div>
+  
+
+
+<!-- Why Section -->
+
+  <section class="massage-section">
+    <!-- Custom SVG wave at the top -->
+    <div class="wave-top">
+      <svg viewBox="0 0 1440 100" xmlns="http://www.w3.org/2000/svg">
+        <path fill="#81c45d" fill-opacity="1" d="M0,32L48,48C96,64,192,96,288,96C384,96,480,64,576,53.3C672,43,768,53,864,74.7C960,96,1056,128,1152,138.7C1248,149,1344,139,1392,133.3L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
+      </svg>
+    </div>
+
+    <div class="content">
+      <h2>Why Aadi Future Systems is Trusted by Thousands?</h2>
+      <p>
+        Aadi Future Systems has earned the trust of thousands of customers due to its unwavering commitment to quality, innovation, and customer satisfaction. With a strong presence in the wellness and fitness industry, the company offers a diverse range of high-quality products—from full body massage chairs to advanced exercise machines—that cater to the modern lifestyle and health needs of individuals. Customers trust Aadi Future Systems not only for its premium product offerings but also for its reliable after-sales service and customer-centric approach. Guided by the visionary leadership of Ms.
+      </p>
+      <p>
+        Anagha Anil Sawant, the company ensures a seamless experience through its dual role as a trader and service provider, along with its efficient retail operations. This dedication to excellence, innovation, and personalized service makes Aadi Future Systems a preferred choice in the wellness market.
+      </p>
+    </div>
+  </section>
+
+
+<!-- Quality Section -->
+
+  <section class="fea-section">
+    <div class="fea-box">
+      <i class="fas fa-microchip icon"></i>
+      <div class="text">
+        <h3>AI Technology</h3>
+        <p>Advanced AI algorithms that adapt to your body and preferences for personalized wellness.</p>
+      </div>
+    </div>
+    <div class="fea-box">
+      <i class="fas fa-shield-alt icon"></i>
+      <div class="text">
+        <h3>Quality Assurance</h3>
+        <p>10+ years of innovation with rigorous testing and international quality standards.</p>
+      </div>
+    </div>
+    <div class="fea-box">
+      <i class="fas fa-headset icon"></i>
+      <div class="text">
+        <h3>Customer Care</h3>
+        <p>Dedicated support team and 11 experience stores across India for hands-on assistance.</p>
+      </div>
+    </div>
+  </section>
+
+
+<!-- Video Section -->
+ 
+  <div class="video-container">
+    <video id="massageVideo" src="images/video.mp4" autoplay muted loop playsinline></video>
+  </div>
+ 
+<!-- Our Client -->
+
+  <!-- <section class="client-section">
+    <h2>Our Prestigious Partners</h2>
+    <div class="client-logos">
+      <div class="client"><img src="images/client1.png" alt="SRJ Hospital" /></div>
+      <div class="client"><img src="images/client2.png" alt="NetApp" /></div>
+      <div class="client"><img src="images/client3.png" alt="Microsoft" /></div>
+      <div class="client"><img src="images/client4.png" alt="Vikas Soudha" /></div>
+      <div class="client"><img src="images/client5.png" alt="14 Gorkha Training Centre" /></div>
+    </div>
+  </section> -->
+  
+<!-- Testimonials Section -->
+
+  <section class="testimonials-section">
+    <h2>Your Experience, Our Pride</h2>
+    <p class="subtitle">Feedback that fuels our commitment to quality and comfort.</p>
+
+    <!-- Navigation Buttons -->
+    <button class="testimonials-scroll-btn tes-left" onclick="scrollSlider(-1)">&#10094;</button>
+    <button class="testimonials-scroll-btn tes-right" onclick="scrollSlider(1)">&#10095;</button>
+
+    <!-- Slider Container -->
+    <div class="testimonials" id="testimonialSlider">
+      <!-- Testimonial 1 -->
+      <div class="testimonial-card">
+        <div class="stars">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i>
+          <i class="fas fa-star"></i><i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <p class="testimonial-text">
+          "The AI massage chair has transformed my daily routine. The personalized massage programs are incredible!"
+        </p>
+        <div class="author">
+          <div class="avatar">R</div>
+          <div>
+            <strong>Rajesh Kumar</strong><br />
+            <span>Mumbai</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Testimonial 2 -->
+      <div class="testimonial-card">
+        <div class="stars">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i>
+          <i class="fas fa-star"></i><i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <p class="testimonial-text">
+          "Best investment for my health. The portable massager is perfect for my busy lifestyle."
+        </p>
+        <div class="author">
+          <div class="avatar">P</div>
+          <div>
+            <strong>Priya Sharma</strong><br />
+            <span>Delhi</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Testimonial 3 -->
+      <div class="testimonial-card">
+        <div class="stars">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i>
+          <i class="fas fa-star"></i><i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <p class="testimonial-text">
+          "As a healthcare professional, I recommend Restolax products to my patients. Quality is exceptional."
+        </p>
+        <div class="author">
+          <div class="avatar">D</div>
+          <div>
+            <strong>Dr. Amit Patel</strong><br />
+            <span>Bangalore</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Duplicate a few more cards for better sliding -->
+      <div class="testimonial-card">
+        <div class="stars">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i>
+          <i class="fas fa-star"></i><i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <p class="testimonial-text">
+          "My whole family uses the massage products regularly. Highly recommended!"
+        </p>
+        <div class="author">
+          <div class="avatar">A</div>
+          <div>
+            <strong>Anita Desai</strong><br />
+            <span>Hyderabad</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<!-- Bottom - Top Scroller -->
+<button onclick="scrollToTop()" id="backToTopBtn" title="Go to top">&#8679;</button>
+
+<script>
+window.onscroll = function() {
+  const btn = document.getElementById("backToTopBtn");
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    btn.style.display = "block";
+  } else {
+    btn.style.display = "none";
+  }
+};
+function scrollToTop() {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+</script>
+
+
+<!-- Footer -->
+<div id="footer-container"></div>
+
+<script src="footer.js"></script>
+<script src="navbar.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

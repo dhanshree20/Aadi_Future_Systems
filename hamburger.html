@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aadi Future Systems</title>
+  <link rel="stylesheet" href="hamburger.css"/>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="scroll-container">
+      <div class="scroll-track">
+        <div class="scroll-content">
+          <span><strong>+91 8830439424</strong></span>
+          <span><strong>aadifuturesystems@gmail.com</strong></span>
+        </div>
+        <div class="scroll-content">
+          <span><strong>+91 8830439424</strong></span>
+          <span><strong>aadifuturesystems@gmail.com</strong></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <!-- Mobile Header -->
+    <div class="mobile-header">
+      <img src="images/logo1.png" alt="Logo" class="mobile-logo" />
+      <div class="hamburger" id="hamburger">&#9776;</div>
+    </div>
+
+    <!-- Mobile Slide Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <div class="close-btn" id="closeBtn">&times;</div>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="product.html">Product</a>
+      <!-- <div class="submenu-toggle">Product <i class="fas fa-chevron-down"></i></div>
+       <div class="submenu">
+        <a href="#">Full Body</a>
+        <a href="#">Recliner</a>
+        <a href="#">Heated</a>
+        <a href="#">Compact</a>
+      </div> -->
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+
+    <!-- Desktop Left Dropdowns -->
+    <div class="nav-left">
+      <div class="dropdown">
+       <a href="product.html?category=massage" class="dropbtn">Massage Chair <i class="fas fa-caret-down"></i></a>
+<div class="dropdown-content">
+  <ul class="dropdown-list">
+    <li><a href="Kings_Elite_Massage_Chair.html">Kings Elite Massage Chair</a></li>
+    <li><a href="Dream_Relax_FullBody.html">Dream Relax Full Body Massage Chair</a></li>
+    <li><a href="Legacy_Massage_Chair.html">Legacy Massage Chair</a></li>
+    <li><a href="Highland_Massage_Chair.html">Highland Massage Chair</a></li>
+    <li><a href="Imperial_Massage_Chair.html">Imperial Massage Chair</a></li>
+    <li><a href="Maestro_Full_Body.html">Maestro Full Body Massage Chair</a></li>
+    <li><a href="Admiral_Massage_Chair.html">Admiral Massage Chair</a></li>
+    <li><a href="Zero_Gravity_MassageChair.html">Zero Gravity Massage Chair</a></li>
+    <li><a href="Lazydaze_Massage_Chair.html">Lazydaze Massage Chair</a></li>
+    <li><a href="Isnazz_Massage_Chair.html">Isnazz Massage Chair</a></li>
+  </ul>
+</div>
+      </div>
+      <div class="dropdown">
+        <a href="product.html?category=leg" class="dropbtn">Leg Massagers <i class="fas fa-caret-down"></i></a>
+<div class="dropdown-content">
+  <ul class="dropdown-list">
+    <li><a href="Reflex_Swing_ProLegMassager.html">Reflex Swing Pro</a></li>
+    <li><a href="Reflex_Swing_U_ComfortFootMassager.html">Reflex Swing U Comfort</a></li>
+    <li><a href="Leg_And_FootMassager.html">Leg And Foot Massager</a></li>
+  </ul>
+</div>
+      </div>
+    </div>
+
+    <!-- Desktop Center Logo -->
+    <div class="nav-center">
+      <img src="images/logo1.png" alt="Logo" />
+    </div>
+
+    <!-- Desktop Right Links -->
+    <div class="nav-right">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+  </nav>
+
+<script>
+  const hamburger = document.getElementById('hamburger');
+const mobileMenu = document.getElementById('mobileMenu');
+const closeBtn = document.getElementById('closeBtn');
+const submenuToggle = document.querySelector('.submenu-toggle');
+const submenu = document.querySelector('.submenu');
+
+// Open menu
+hamburger.addEventListener('click', () => {
+  mobileMenu.classList.add('active');
+});
+
+// Close menu
+closeBtn.addEventListener('click', () => {
+  mobileMenu.classList.remove('active');
+});
+
+// Toggle submenu
+submenuToggle.addEventListener('click', () => {
+  submenu.style.display = submenu.style.display === 'flex' ? 'none' : 'flex';
+});
+
+</script>  
+
+  <script src="hamburger.js"></script>
+</body>
+</html>

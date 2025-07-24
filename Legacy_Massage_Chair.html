@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Massage Chair</title>
+  <link rel = "icon" href = "images/logo.jpeg">
+  <link rel="stylesheet" href="AllProduct_Style.css">
+</head>
+<body>
+<!-- Navbar -->
+<!-- <div id="navbar-container"></div> -->
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="scroll-container">
+      <div class="scroll-track">
+        <div class="scroll-content">
+          <span><strong>+91 8830439424</strong></span>
+          <span><strong>aadifuturesystems@gmail.com</strong></span>
+        </div>
+        <div class="scroll-content">
+          <span><strong>+91 8830439424</strong></span>
+          <span><strong>aadifuturesystems@gmail.com</strong></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <!-- Mobile Header -->
+    <div class="mobile-header">
+      <img src="images/logo1.png" alt="Logo" class="mobile-logo" />
+      <div class="hamburger" id="hamburger">&#9776;</div>
+    </div>
+
+    <!-- Mobile Slide Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <div class="close-btn" id="closeBtn">&times;</div>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="product.html">Product</a>
+      <!-- <div class="submenu-toggle">Product <i class="fas fa-chevron-down"></i></div>
+       <div class="submenu">
+        <a href="#">Full Body</a>
+        <a href="#">Recliner</a>
+        <a href="#">Heated</a>
+        <a href="#">Compact</a>
+      </div> -->
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+
+    <!-- Desktop Left Dropdowns -->
+    <div class="nav-left">
+      <div class="dropdown">
+       <a href="product.html?category=massage" class="dropbtn">Massage Chair <i class="fas fa-caret-down"></i></a>
+<div class="dropdown-content">
+  <ul class="dropdown-list">
+    <li><a href="Kings_Elite_Massage_Chair.html">Kings Elite Massage Chair</a></li>
+    <li><a href="Dream_Relax_FullBody.html">Dream Relax Full Body Massage Chair</a></li>
+    <li><a href="Legacy_Massage_Chair.html">Legacy Massage Chair</a></li>
+    <li><a href="Highland_Massage_Chair.html">Highland Massage Chair</a></li>
+    <li><a href="Imperial_Massage_Chair.html">Imperial Massage Chair</a></li>
+    <li><a href="Maestro_Full_Body.html">Maestro Full Body Massage Chair</a></li>
+    <li><a href="Admiral_Massage_Chair.html">Admiral Massage Chair</a></li>
+    <li><a href="Zero_Gravity_MassageChair.html">Zero Gravity Massage Chair</a></li>
+    <li><a href="Lazydaze_Massage_Chair.html">Lazydaze Massage Chair</a></li>
+    <li><a href="Isnazz_Massage_Chair.html">Isnazz Massage Chair</a></li>
+  </ul>
+</div>
+      </div>
+      <div class="dropdown">
+        <a href="product.html?category=leg" class="dropbtn">Leg Massagers <i class="fas fa-caret-down"></i></a>
+<div class="dropdown-content">
+  <ul class="dropdown-list">
+    <li><a href="Reflex_Swing_ProLegMassager.html">Reflex Swing Pro</a></li>
+    <li><a href="Reflex_Swing_U_ComfortFootMassager.html">Reflex Swing U Comfort</a></li>
+    <li><a href="Leg_And_FootMassager.html">Leg And Foot Massager</a></li>
+  </ul>
+</div>
+      </div>
+    </div>
+
+    <!-- Desktop Center Logo -->
+    <div class="nav-center">
+      <img src="images/logo1.png" alt="Logo" />
+    </div>
+
+    <!-- Desktop Right Links -->
+    <div class="nav-right">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+  </nav>
+
+<script>
+  const hamburger = document.getElementById('hamburger');
+const mobileMenu = document.getElementById('mobileMenu');
+const closeBtn = document.getElementById('closeBtn');
+const submenuToggle = document.querySelector('.submenu-toggle');
+const submenu = document.querySelector('.submenu');
+
+// Open menu
+hamburger.addEventListener('click', () => {
+  mobileMenu.classList.add('active');
+});
+
+// Close menu
+closeBtn.addEventListener('click', () => {
+  mobileMenu.classList.remove('active');
+});
+
+// Toggle submenu
+submenuToggle.addEventListener('click', () => {
+  submenu.style.display = submenu.style.display === 'flex' ? 'none' : 'flex';
+});
+
+</script>  
+
+
+<!-- Product Section -->
+<div class="product-container">
+  <div class="image-section">
+    <img id="mainImage" src="ProductImages/Legacy_MassageChair/img1.webp" alt="Massage Chair" class="product-image" />
+    
+    <div class="thumbnail-gallery">
+      <img src="ProductImages/Legacy_MassageChair/img1.webp" alt="Thumbnail 1" class="thumb active" onclick="changeImage(this)">
+      <img src="ProductImages/Legacy_MassageChair/img2.webp" alt="Thumbnail 2" class="thumb" onclick="changeImage(this)">
+     
+    </div>
+  </div>
+
+  <div class="details-section">
+    <p class="category">Massage Chairs</p>
+    <h1 class="title">Legacy Massage Chair</h1>
+    <p class="description">
+      The Legacy Massage Chair is a premium full-body relaxation chair designed to offer advanced therapeutic comfort in the comfort of your home, office, or wellness center. Combining ergonomic design with modern technology, it provides a deep tissue massage that mimics the hand techniques of a professional masseuse. The chair features an L-track massage system that runs from the neck down to the glutes and thighs, along with zero gravity positioning that relieves spinal pressure and promotes circulation. With built-in heat therapy, multiple auto programs, foot rollers, and full-body airbags, the Legacy Massage Chair is tailored for stress relief, pain reduction, and daily relaxation. Ideal for individuals seeking both luxury and functional wellness, it delivers a truly rejuvenating experience.
+    </p>
+         <!-- Enquire Now Button -->
+<a href="#" class="enquire-button" onclick="redirectToContact()">Enquire Now</a>
+  </div>
+</div>
+
+<!-- Feature Section -->
+<section class="features-section">
+  <div class="container">
+    <h1>Legacy Massage Chair Features</h1>
+    <ul class="features-list">
+      <li>Material - Pu Leather</li>
+      <li>L-Track Massage System Extended roller path covers from neck to glutes and thighs for a more complete back massage.</li>
+      <li>Zero Gravity Recline Places your body in a weightless position to reduce spinal pressure and improve massage intensity.</li>
+      <li>Full-Body Airbag System Airbags located in the shoulders, arms, hips, calves, and feet compress muscles for circulation and relief.</li>
+      <li>Foot Rollers Deep kneading rollers target the soles of your feet, simulating reflexology treatment.</li>
+      <li>Bluetooth Speakers Stream music, meditation, or nature sounds directly from your phone while you relax.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ✅ New Section: Additional Images -->
+<section class="extra-images">
+  <div class="image-wrapper">
+    <img src="ProductImages/Legacy_MassageChair/img3.webp" alt="Image 1">
+    <img src="ProductImages/Legacy_MassageChair/img4.webp" alt="Image 2">
+    <img src="ProductImages/Legacy_MassageChair/img5.webp" alt="Image 2">
+  </div>
+</section>
+
+<!-- Bottom - Top Scroller -->
+<button onclick="scrollToTop()" id="backToTopBtn" title="Go to top">&#8679;</button>
+
+<script>
+window.onscroll = function() {
+  const btn = document.getElementById("backToTopBtn");
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    btn.style.display = "block";
+  } else {
+    btn.style.display = "none";
+  }
+};
+function scrollToTop() {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+</script>
+
+<!-- Footer -->
+<div id="footer-container"></div>
+
+<!-- JS Scripts -->
+<script src="footer.js"></script>
+<script src="navbar.js"></script>
+<script>
+  function changeImage(thumbnail) {
+    const mainImg = document.getElementById('mainImage');
+    mainImg.src = thumbnail.src;
+
+    document.querySelectorAll('.thumb').forEach(img => img.classList.remove('active'));
+    thumbnail.classList.add('active');
+  }
+</script>  
+</body>
+</html>

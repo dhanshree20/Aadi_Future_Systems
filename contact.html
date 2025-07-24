@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aadi Future Systems</title>
+  <link rel = "icon" href = "images/logo.jpeg">
+  <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Correct Font Awesome CDN -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body>
+<!-- Navbar -->
+<!-- <div id="navbar-container"></div> -->
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="scroll-container">
+      <div class="scroll-track">
+        <div class="scroll-content">
+          <span><strong>+91 8830439424</strong></span>
+          <span><strong>aadifuturesystems@gmail.com</strong></span>
+        </div>
+        <div class="scroll-content">
+          <span><strong>+91 8830439424</strong></span>
+          <span><strong>aadifuturesystems@gmail.com</strong></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <!-- Mobile Header -->
+    <div class="mobile-header">
+      <img src="images/logo1.png" alt="Logo" class="mobile-logo" />
+      <div class="hamburger" id="hamburger">&#9776;</div>
+    </div>
+
+    <!-- Mobile Slide Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <div class="close-btn" id="closeBtn">&times;</div>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="product.html">Product</a>
+      <!-- <div class="submenu-toggle">Product <i class="fas fa-chevron-down"></i></div>
+       <div class="submenu">
+        <a href="#">Full Body</a>
+        <a href="#">Recliner</a>
+        <a href="#">Heated</a>
+        <a href="#">Compact</a>
+      </div> -->
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+
+    <!-- Desktop Left Dropdowns -->
+    <div class="nav-left">
+      <div class="dropdown">
+       <a href="product.html?category=massage" class="dropbtn">Massage Chair <i class="fas fa-caret-down"></i></a>
+<div class="dropdown-content">
+  <ul class="dropdown-list">
+    <li><a href="Kings_Elite_Massage_Chair.html">Kings Elite Massage Chair</a></li>
+    <li><a href="Dream_Relax_FullBody.html">Dream Relax Full Body Massage Chair</a></li>
+    <li><a href="Legacy_Massage_Chair.html">Legacy Massage Chair</a></li>
+    <li><a href="Highland_Massage_Chair.html">Highland Massage Chair</a></li>
+    <li><a href="Imperial_Massage_Chair.html">Imperial Massage Chair</a></li>
+    <li><a href="Maestro_Full_Body.html">Maestro Full Body Massage Chair</a></li>
+    <li><a href="Admiral_Massage_Chair.html">Admiral Massage Chair</a></li>
+    <li><a href="Zero_Gravity_MassageChair.html">Zero Gravity Massage Chair</a></li>
+    <li><a href="Lazydaze_Massage_Chair.html">Lazydaze Massage Chair</a></li>
+    <li><a href="Isnazz_Massage_Chair.html">Isnazz Massage Chair</a></li>
+  </ul>
+</div>
+      </div>
+      <div class="dropdown">
+        <a href="product.html?category=leg" class="dropbtn">Leg Massagers <i class="fas fa-caret-down"></i></a>
+<div class="dropdown-content">
+  <ul class="dropdown-list">
+    <li><a href="Reflex_Swing_ProLegMassager.html">Reflex Swing Pro</a></li>
+    <li><a href="Reflex_Swing_U_ComfortFootMassager.html">Reflex Swing U Comfort</a></li>
+    <li><a href="Leg_And_FootMassager.html">Leg And Foot Massager</a></li>
+  </ul>
+</div>
+      </div>
+    </div>
+
+    <!-- Desktop Center Logo -->
+    <div class="nav-center">
+      <img src="images/logo1.png" alt="Logo" />
+    </div>
+
+    <!-- Desktop Right Links -->
+    <div class="nav-right">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+  </nav>
+
+<script>
+  const hamburger = document.getElementById('hamburger');
+const mobileMenu = document.getElementById('mobileMenu');
+const closeBtn = document.getElementById('closeBtn');
+const submenuToggle = document.querySelector('.submenu-toggle');
+const submenu = document.querySelector('.submenu');
+
+// Open menu
+hamburger.addEventListener('click', () => {
+  mobileMenu.classList.add('active');
+});
+
+// Close menu
+closeBtn.addEventListener('click', () => {
+  mobileMenu.classList.remove('active');
+});
+
+// Toggle submenu
+submenuToggle.addEventListener('click', () => {
+  submenu.style.display = submenu.style.display === 'flex' ? 'none' : 'flex';
+});
+
+</script>  
+
+
+<!-- contact Banner Section -->
+  <div class="hero-wrapper">
+    <img src="images/contact_banner.webp" alt="Massage Chairs Banner" />
+  </div>  
+
+<!-- Contact Section -->
+  <div class="contact-heading-section">
+    <p>
+      We’re here to help you relax better.
+    </p>
+    <p>
+      Whether you have a question about our massage chairs, need assistance with choosing the right product, or want to explore partnership opportunities — our team is just a message away. Fill out the form below, call us, or drop us an email. We’ll get back to you as soon as possible to ensure your comfort experience is seamless and satisfying.
+    </p>
+  </div>
+
+  <!-- Contact Address Section -->
+
+   <div class="contact-box">
+    <div class="contact-column">
+      <h2>Head Office</h2>
+      <p>Shop No. 5, More Empire, NDA Road, Shivane, Pune - 411023</p>
+    </div>
+    <div class="contact-column">
+      <h2>Mobile No</h2>
+      <p>+91 8830439424</p>
+      <!-- <p><strong>Anil Sawant</strong></p> -->
+    </div>
+    <div class="contact-column">
+      <h2>E-mail</h2>
+      <p>aadifuturesystems@gmail.com</p>
+    </div>
+  </div>
+
+  <!-- Form Section -->
+
+ <div class="contact-container">
+    <div class="contact-form">
+      <h1>Get In Touch </h1>
+      <p class="subtitle">we want to hear from you</p>
+      <form action="https://formsubmit.co/aadifuturesystems@gmail.com" method="POST">
+        <input type="text" placeholder="Name*" required />
+        <input type="email" placeholder="Email Address*" required />
+        <input type="number" placeholder="Mobile Number*" required />
+        <input id="subjectInput" type="text" placeholder="Subject*" required />
+        <textarea placeholder="Message*" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+<div class="contact-info">
+  <div class="info-item">
+    <i class="fas fa-phone"></i>
+    <p><strong>Phone:</strong><br>+91 8830439424</p>
+  </div>
+  <div class="info-item">
+    <i class="fas fa-envelope"></i>
+    <p><strong>Email:</strong><br>aadifuturesystems@gmail.com</p>
+  </div>
+  <div class="contact-social-icons">
+    <a href="#"><i class="fab fa-facebook-square"></i></a>
+    <a href="#"><i class="fab fa-twitter-square"></i></a>
+    <a href="#"><i class="fab fa-linkedin"></i></a>
+    <a href="#"><i class="fab fa-instagram-square"></i></a>
+  </div>
+</div>
+</div>
+
+<script>
+  window.addEventListener('DOMContentLoaded', () => {
+    const params = new URLSearchParams(window.location.search);
+    const subject = params.get('subject');
+    if (subject) {
+      document.getElementById('subjectInput').value = subject;
+    }
+  });
+</script>
+
+
+<!-- Map Section -->
+
+ <section class="map-section">
+    <h2>Our Location</h2>
+    <div class="map-container">
+      <iframe 
+        src="https://www.google.com/maps?q=Shop%20No.%205,%20More%20Empire,%20NDA%20Road,%20Shivane,%20Pune%20-%20411023&output=embed"
+        width="100%" 
+        height="400" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </section>
+
+
+
+<!-- Bottom - Top Scroller -->
+<button onclick="scrollToTop()" id="backToTopBtn" title="Go to top">&#8679;</button>
+
+<script>
+window.onscroll = function() {
+  const btn = document.getElementById("backToTopBtn");
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    btn.style.display = "block";
+  } else {
+    btn.style.display = "none";
+  }
+};
+function scrollToTop() {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+</script>
+
+
+  <!-- Footer -->
+<div id="footer-container"></div>
+
+<script src="footer.js"></script>
+<script src="navbar.js"></script>
+</body>
+</html>
