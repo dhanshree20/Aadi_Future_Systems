@@ -3,61 +3,55 @@
         {
           image: "ProductImages/Kings_Elite_MassageChair/img1.webp",
           subtitle: "Massage Chair",
-          title: "Kings Elite Massage Chair",
+          title: "Royal Comfort Massage Chair",
           link: "Kings_Elite_Massage_Chair.html"
         },
         {
           image: "ProductImages/Dream_Relax_FullBodyMassageChair/img1.webp",
           subtitle: "Massage Chair",
-          title: "Dream Relax Full Body Massage Chair",
+          title: "Grand Serenity Full Body Massage Chair",
           link: "Dream_Relax_FullBody.html"
         },
         {
           image: "ProductImages/Legacy_MassageChair/img1.webp",
           subtitle: "Massage Chair",
-          title: "Legacy Massage Chair",
+          title: "Aura Comfort Massage Chair",
           link: "Legacy_Massage_Chair.html"
         },
         {
           image: "ProductImages/Highland_MassageChair/img1.webp",
           subtitle: "Massage Chair",
-          title: "Highland Massage Chair",
+          title: "Highland Bliss Massage Chair",
           link: "Highland_Massage_Chair.html"
         },
         {
           image: "ProductImages/Imperial_MassageChair/img1.webp",
           subtitle: "Massage Chair",
-          title: "Imperial Massage Chair",
+          title: "Imperial Supreme Massage Chair",
           link: "Imperial_Massage_Chair.html"
         },
         {
           image: "ProductImages/Maestro_FullBodyMassageChair/img1.webp",
           subtitle: "Massage Chair",
-          title: "Maestro Full Body Massage Chair",
+          title: "Maestro Platinum Full Body Massage Chair",
           link: "Maestro_Full_Body.html"
         },
         {
           image: "ProductImages/Admiral_MassageChair/img1.webp",
           subtitle: "Massage Chair",
-          title: "Admiral Massage Chair",
+          title: "Grand Aura Massage Chair",
           link: "Admiral_Massage_Chair.html"
         },
         {
           image: "ProductImages/Zero_GravityMassageChair/img1.webp",
           subtitle: "Massage Chair",
-          title: "Zero Gravity Massage Chair",
+          title: "Infinity Relax Zero Gravity Chair",
           link: "Zero_Gravity_MassageChair.html"
-        },
-        {
-          image: "ProductImages/Lazydaze_MassageChair/img1.webp",
-          subtitle: "Massage Chair",
-          title: "Lazydaze Massage Chair",
-          link: "Lazydaze_Massage_Chair.html"
         },
         {
           image: "ProductImages/Isnazz_MassageChair/img1.webp",
           subtitle: "Massage Chair",
-          title: "Isnazz Massage Chair",
+          title: "Majestic Comfort Massage Chair",
           link: "Isnazz_Massage_Chair.html"
         }
       ],
@@ -167,4 +161,10 @@ function showProducts(category, element) {
       const tabButton = Array.from(document.querySelectorAll('.tab-buttons button'))
         .find(btn => btn.textContent.toLowerCase().includes(category));
       showProducts(category, tabButton);
+
+       // scroll exact section par
+  const section = document.getElementById(category + "-section");
+  if (section) {
+    section.scrollIntoView({ behavior: "smooth" });
+  }
     };
