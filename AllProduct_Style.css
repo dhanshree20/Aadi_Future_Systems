@@ -71,6 +71,7 @@ body {
   list-style-type: none;  /* Changed from 'disc' to 'none' */
   padding-left: 0;        /* Optional: remove extra left space */
   margin: 0;
+  width: 260px;
 }
 
 .dropdown-list li {
