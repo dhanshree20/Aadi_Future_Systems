@@ -20,7 +20,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 12px 30px;
+  padding: 12px 50px;
   background-color: #f2f2f2;
   flex-wrap: wrap;
   position: relative;
@@ -466,7 +466,7 @@ body {
       justify-content: center;
       align-items: center;
       flex-wrap: wrap;
-      padding: 40px;
+      padding: 40px 60px;
       gap: 30px;
     }
 
@@ -501,7 +501,7 @@ body {
     }
 
     .image-box img {
-      max-width: 100%;
+      max-width: 90%;
       height: auto;
       animation: floatUpDown 3s ease-in-out infinite;
     }
@@ -862,7 +862,7 @@ body {
   display: inline-block;
   margin-top: 10px;
   font-family: Sans-serif;
-  margin-left: 550px;
+  margin-left: 650px;
 }
 
 .product-btn:hover {

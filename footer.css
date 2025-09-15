@@ -60,7 +60,7 @@
 }
 
 .footer-container {
-  max-width: 1300px;
+  max-width: 1400px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -88,7 +88,7 @@
 
 .footer-column p,
 .footer-column li {
-  font-size: 15px;
+  font-size: 17px;
   line-height: 1.6;
   margin-bottom: 10px;
   font-family: 'Playfair Display', serif;

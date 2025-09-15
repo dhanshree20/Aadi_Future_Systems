@@ -20,7 +20,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 12px 30px;
+  padding: 12px 50px;
   background-color: #f2f2f2;
   flex-wrap: wrap;
   position: relative;
@@ -266,8 +266,8 @@ body {
     }
 
     .hero-wrapper img {
-      width: 1300px;
-      height: 500px;
+      width: 1550px;
+      height: 560px;
       display: block;
     }
 
