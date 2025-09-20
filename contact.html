@@ -66,15 +66,13 @@
        <a href="product.html?category=massage" class="dropbtn">Massage Chair <i class="fas fa-caret-down"></i></a>
 <div class="dropdown-content">
   <ul class="dropdown-list">
-    <li><a href="Kings_Elite_Massage_Chair.html">Royal Comfort Massage Chair</a></li>
-    <li><a href="Dream_Relax_FullBody.html">Grand Serenity Full Body Massage Chair</a></li>
-    <li><a href="Legacy_Massage_Chair.html">Aura Comfort Massage Chair</a></li>
-    <li><a href="Highland_Massage_Chair.html">Highland Bliss Massage Chair</a></li>
-    <li><a href="Imperial_Massage_Chair.html">Imperial Supreme Massage Chair</a></li>
-    <li><a href="Maestro_Full_Body.html">Maestro Platinum Full Body Massage Chair</a></li>
-    <li><a href="Admiral_Massage_Chair.html">Grand Aura Massage Chair</a></li>
-    <li><a href="Zero_Gravity_MassageChair.html">Infinity Relax Zero Gravity Chair</a></li>
-    <li><a href="Isnazz_Massage_Chair.html">Majestic Comfort Massage Chair</a></li>
+    <li><a href="Royal_Comfort_Massage_Chair.html">Royal Comfort Massage Chair</a></li>
+    <li><a href="Grand_Serenity_FullBody_Massage_Chair.html">Grand Serenity Full Body Massage Chair</a></li>
+    <li><a href="Aura_Comfort_Massage_Chair.html">Aura Comfort Massage Chair</a></li>
+    <li><a href="Highland_Bliss_Massage_Chair.html">Highland Bliss Massage Chair</a></li>
+    <li><a href="Imperial_Supreme_Massage_Chair.html">Imperial Supreme Massage Chair</a></li>
+    <li><a href="Maestro_Platinum_FullBody_Massage_Chair.html">Maestro Platinum Full Body Massage Chair</a></li>
+    <li><a href="Grand_Aura_Massage_Chair.html">Grand Aura Massage Chair</a></li>
   </ul>
 </div>
       </div>
@@ -164,38 +162,38 @@ submenuToggle.addEventListener('click', () => {
 
   <!-- Form Section -->
 
- <div class="contact-container">
-    <div class="contact-form" id="contactForm">
-      <h1>Get In Touch </h1>
-      <p class="subtitle">we want to hear from you</p>
-      <form action="https://formsubmit.co/aadifuturesystems@gmail.com" method="POST">
-        <input type="text" placeholder="Name*" required />
-        <input type="email" placeholder="Email Address*" required />
-        <input type="number" placeholder="Mobile Number*" required />
-        <input id="subjectInput" type="text" placeholder="Subject*" required />
-        <textarea placeholder="Message*" required></textarea>
-        <button type="submit">Submit</button>
-      </form>
+<div class="contact-container">
+  <div class="contact-form" id="contactForm">
+    <h1>Get In Touch </h1>
+    <p class="subtitle">we want to hear from you</p>
+    <form id="whatsappForm">
+      <input id="name" type="text" placeholder="Name*" required />
+      <input id="email" type="email" placeholder="Email Address*" required />
+      <input id="phone" type="number" placeholder="Mobile Number*" required />
+      <input id="subjectInput" type="text" placeholder="Subject*" required />
+      <textarea id="message" placeholder="Message*" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <div class="contact-info">
+    <div class="info-item">
+      <i class="fas fa-phone"></i>
+      <p><strong>Phone:</strong><br>+91 8830439424</p>
     </div>
-<div class="contact-info">
-  <div class="info-item">
-    <i class="fas fa-phone"></i>
-    <p><strong>Phone:</strong><br>+91 8830439424</p>
+    <div class="info-item">
+      <i class="fas fa-envelope"></i>
+      <p><strong>Email:</strong><br>aadifuturesystems@gmail.com</p>
+    </div>
+    <div class="contact-social-icons">
+      <a href="https://www.facebook.com/people/Aadi-future-systems/100064233212038/?rdid=958LiYqcwawxv8XN&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1CFnFM1CNb%2F"><i class="fab fa-facebook-square"></i></a>
+      <a href="https://www.instagram.com/aadifuturesystems/?igsh=eWJmODB0ZTNlMGM2&utm_source=ig_contact_invite#"><i class="fab fa-instagram-square"></i></a>
+    </div>
   </div>
-  <div class="info-item">
-    <i class="fas fa-envelope"></i>
-    <p><strong>Email:</strong><br>aadifuturesystems@gmail.com</p>
-  </div>
-  <div class="contact-social-icons">
-    <a href="#"><i class="fab fa-facebook-square"></i></a>
-    <a href="#"><i class="fab fa-twitter-square"></i></a>
-    <a href="#"><i class="fab fa-linkedin"></i></a>
-    <a href="#"><i class="fab fa-instagram-square"></i></a>
-  </div>
-</div>
 </div>
 
 <script>
+  // ✅ Subject prefill
   window.addEventListener('DOMContentLoaded', () => {
     const params = new URLSearchParams(window.location.search);
     const subject = params.get('subject');
@@ -203,7 +201,34 @@ submenuToggle.addEventListener('click', () => {
       document.getElementById('subjectInput').value = subject;
     }
   });
+
+  // ✅ WhatsApp direct open
+  document.getElementById("whatsappForm").addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const phone = document.getElementById("phone").value;
+    const subject = document.getElementById("subjectInput").value;
+    const message = document.getElementById("message").value;
+
+    // Apna WhatsApp number (with country code, no + sign)
+    const whatsappNumber = "919867194567";
+
+    // Message formatting
+    const whatsappURL = `https://wa.me/${whatsappNumber}?text=
+*New Enquiry*%0A
+ Name: ${encodeURIComponent(name)}%0A
+ Email: ${encodeURIComponent(email)}%0A
+ Phone: ${encodeURIComponent(phone)}%0A
+ Subject: ${encodeURIComponent(subject)}%0A
+ Message: ${encodeURIComponent(message)}`;
+
+    // ✅ Direct WhatsApp open
+    window.location.href = whatsappURL;
+  });
 </script>
+
 
 
 <!-- Map Section -->

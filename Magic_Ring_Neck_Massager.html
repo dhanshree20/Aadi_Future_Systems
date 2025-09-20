@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Massage Chair</title>
+  <link rel = "icon" href = "images/logo.jpeg">
+  <link rel="stylesheet" href="AllProduct_Style.css">
+</head>
+<body>
+<!-- Navbar -->
+<!-- <div id="navbar-container"></div> -->
+
+  <!-- Top Bar -->
+<div class="top-bar" style="width: 100%; overflow: hidden; white-space: nowrap;   background: white; color: #444; font-family: sans-serif; padding: 10px 0; position: relative;">
+  <div class="scroll-container" style="display: inline-block; white-space: nowrap; animation: scrollText 20s linear infinite;">
+    <span style="display: inline-block; padding-right: 50px;">
+      +91 8830439424 &nbsp;&nbsp;&nbsp;&nbsp; aadifuturesystems@gmail.com
+    </span>
+    <span style="display: inline-block; padding-right: 50px;">
+      +91 8830439424 &nbsp;&nbsp;&nbsp;&nbsp;  aadifuturesystems@gmail.com
+    </span>
+    <span style="display: inline-block; padding-right: 50px;">
+      +91 8830439424 &nbsp;&nbsp;&nbsp;&nbsp; aadifuturesystems@gmail.com
+    </span>
+    <span style="display: inline-block; padding-right: 50px;">
+      +91 8830439424 &nbsp;&nbsp;&nbsp;&nbsp; aadifuturesystems@gmail.com 
+    </span>
+  </div>
+</div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <!-- Mobile Header -->
+    <div class="mobile-header">
+      <img src="images/logo1.png" alt="Logo" class="mobile-logo" />
+      <div class="hamburger" id="hamburger">&#9776;</div>
+    </div>
+
+    <!-- Mobile Slide Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <div class="close-btn" id="closeBtn">&times;</div>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="product.html">Product</a>
+      <!-- <div class="submenu-toggle">Product <i class="fas fa-chevron-down"></i></div>
+       <div class="submenu">
+        <a href="#">Full Body</a>
+        <a href="#">Recliner</a>
+        <a href="#">Heated</a>
+        <a href="#">Compact</a>
+      </div> -->
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+
+    <!-- Desktop Left Dropdowns -->
+    <div class="nav-left">
+      <div class="dropdown">
+       <a href="product.html?category=massage" class="dropbtn">Massage Chair <i class="fas fa-caret-down"></i></a>
+<div class="dropdown-content">
+  <ul class="dropdown-list">
+    <li><a href="Royal_Comfort_Massage_Chair.html">Royal Comfort Massage Chair</a></li>
+    <li><a href="Grand_Serenity_FullBody_Massage_Chair.html">Grand Serenity Full Body Massage Chair</a></li>
+    <li><a href="Aura_Comfort_Massage_Chair.html">Aura Comfort Massage Chair</a></li>
+    <li><a href="Highland_Bliss_Massage_Chair.html">Highland Bliss Massage Chair</a></li>
+    <li><a href="Imperial_Supreme_Massage_Chair.html">Imperial Supreme Massage Chair</a></li>
+    <li><a href="Maestro_Platinum_FullBody_Massage_Chair.html">Maestro Platinum Full Body Massage Chair</a></li>
+    <li><a href="Grand_Aura_Massage_Chair.html">Grand Aura Massage Chair</a></li>
+  </ul>
+</div>
+      </div>
+      <div class="dropdown">
+        <a href="product.html?category=leg" class="dropbtn">Leg Massagers <i class="fas fa-caret-down"></i></a>
+<div class="dropdown-content">
+  <ul class="dropdown-list">
+    <li><a href="Reflex_Swing_ProLegMassager.html">Reflex Swing Pro</a></li>
+    <li><a href="Reflex_Swing_U_ComfortFootMassager.html">Reflex Swing U Comfort</a></li>
+    <li><a href="Leg_And_FootMassager.html">Leg And Foot Massager</a></li>
+  </ul>
+</div>
+      </div>
+    </div>
+
+    <!-- Desktop Center Logo -->
+    <div class="nav-center">
+      <img src="images/logo1.png" alt="Logo" />
+    </div>
+
+    <!-- Desktop Right Links -->
+    <div class="nav-right">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+  </nav>
+
+<script>
+  const hamburger = document.getElementById('hamburger');
+const mobileMenu = document.getElementById('mobileMenu');
+const closeBtn = document.getElementById('closeBtn');
+const submenuToggle = document.querySelector('.submenu-toggle');
+const submenu = document.querySelector('.submenu');
+
+// Open menu
+hamburger.addEventListener('click', () => {
+  mobileMenu.classList.add('active');
+});
+
+// Close menu
+closeBtn.addEventListener('click', () => {
+  mobileMenu.classList.remove('active');
+});
+
+// Toggle submenu
+submenuToggle.addEventListener('click', () => {
+  submenu.style.display = submenu.style.display === 'flex' ? 'none' : 'flex';
+});
+
+</script>  
+
+
+<!-- Product Section -->
+<div class="product-container">
+  <div class="image-section">
+    <img id="mainImage" src="ProductImages/Magic_Ring_Neck_Massager/img1.webp" alt="Massage Chair" class="product-image" />
+    
+    <div class="thumbnail-gallery">
+      <img src="ProductImages/Magic_Ring_Neck_Massager/img1.webp" alt="Thumbnail 1" class="thumb active" onclick="changeImage(this)">
+      <img src="ProductImages/Magic_Ring_Neck_Massager/img2.webp" alt="Thumbnail 2" class="thumb" onclick="changeImage(this)">
+      <img src="ProductImages/Magic_Ring_Neck_Massager/img3.webp" alt="Thumbnail 2" class="thumb" onclick="changeImage(this)">
+      <img src="ProductImages/Magic_Ring_Neck_Massager/img4.webp" alt="Thumbnail 2" class="thumb" onclick="changeImage(this)">
+    </div>
+  </div>
+
+  <div class="details-section">
+    <p class="category">Other Items</p>
+    <h1 class="title">Magic Ring Neck Massager</h1>
+    <p class="description">
+      The Magic Ring by Aadi Future Systems Advance Health Equipments is a modern, stylish, and compact neck massager designed for everyday comfort and wellness. Built with advanced features like acupuncture beating, rhythmic tapping, and gentle vibrations, it helps relieve stiffness, tension, and fatigue in the neck and shoulder area. The device also comes with Bluetooth connectivity, allowing you to enjoy your favorite music or guided relaxation while experiencing a soothing massage. Its lightweight, ergonomic design makes it easy to wear at home, in the office, or even while traveling, ensuring continuous neck protection and relaxation on the go. Perfect for those who spend long hours working, studying, or using digital devices, the Magic Ring combines traditional acupressure techniques with modern technology to promote better blood circulation, reduce stress, and enhance overall well-being.
+    </p>
+
+     <!-- Enquire Now Button -->
+<a href="#" class="enquire-button" onclick="redirectToContact()">Enquire Now</a>
+
+  </div>
+</div>
+<script>
+  function redirectToContact() {
+    const productTitle = document.querySelector('.title').innerText;
+    const encodedTitle = encodeURIComponent(productTitle);
+    // Add #contactForm to scroll to form section after redirection
+    window.location.href = `contact.html?subject=${encodedTitle}#contactForm`;
+  }
+</script>
+
+<!-- Feature Section -->
+<section class="features-section">
+  <div class="container">
+    <h1>Magic Ring Neck Massager Features</h1>
+    <ul class="features-list">
+      <li>Acupuncture Beating & Tapping Therapy – Simulates acupressure techniques to relieve muscle stiffness and fatigue.</li>
+      <li>Bluetooth Connectivity – Enjoy music, relaxation tracks, or guided meditation while using the device.</li>
+      <li>Compact & Lightweight Design – Easy to wear anytime, whether at home, office, or while traveling.</li>
+      <li>Ergonomic Fit – Designed to comfortably wrap around the neck for maximum effectiveness.</li>
+      <li>Multiple Massage Modes & Intensity Levels – Customize your massage experience according to your comfort and need.</li>
+      <li>Neck Protection Technology – Helps improve blood circulation, reduce stress, and support cervical health.</li>
+      <li>Rechargeable & Portable – Long-lasting battery for convenient use without constant charging.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ✅ New Section: Additional Images -->
+<!-- <section class="extra-images">
+  <div class="image-wrapper">
+    <img src="ProductImages/1_20250903_132530_0000.png" alt="Image 1">
+    <img src="ProductImages/2.png" alt="Image 2">
+  </div>
+</section> -->
+
+
+<!-- Footer -->
+<div id="footer-container"></div>
+
+<!-- JS Scripts -->
+<script src="footer.js"></script>
+<script src="navbar.js"></script>
+<script>
+  function changeImage(thumbnail) {
+    const mainImg = document.getElementById('mainImage');
+    mainImg.src = thumbnail.src;
+
+    document.querySelectorAll('.thumb').forEach(img => img.classList.remove('active'));
+    thumbnail.classList.add('active');
+  }
+</script>  
+</body>
+</html>

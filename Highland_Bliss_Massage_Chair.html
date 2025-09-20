@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Massage Chair</title>
+  <link rel = "icon" href = "images/logo.jpeg">
+  <link rel="stylesheet" href="AllProduct_Style.css">
+</head>
+<body>
+<!-- Navbar -->
+<!-- <div id="navbar-container"></div> -->
+
+  <!-- Top Bar -->
+<div class="top-bar" style="width: 100%; overflow: hidden; white-space: nowrap;   background: white; color: #444; font-family: sans-serif; padding: 10px 0; position: relative;">
+  <div class="scroll-container" style="display: inline-block; white-space: nowrap; animation: scrollText 20s linear infinite;">
+    <span style="display: inline-block; padding-right: 50px;">
+      +91 8830439424 &nbsp;&nbsp;&nbsp;&nbsp; aadifuturesystems@gmail.com
+    </span>
+    <span style="display: inline-block; padding-right: 50px;">
+      +91 8830439424 &nbsp;&nbsp;&nbsp;&nbsp;  aadifuturesystems@gmail.com
+    </span>
+    <span style="display: inline-block; padding-right: 50px;">
+      +91 8830439424 &nbsp;&nbsp;&nbsp;&nbsp; aadifuturesystems@gmail.com
+    </span>
+    <span style="display: inline-block; padding-right: 50px;">
+      +91 8830439424 &nbsp;&nbsp;&nbsp;&nbsp; aadifuturesystems@gmail.com 
+    </span>
+  </div>
+</div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <!-- Mobile Header -->
+    <div class="mobile-header">
+      <img src="images/logo1.png" alt="Logo" class="mobile-logo" />
+      <div class="hamburger" id="hamburger">&#9776;</div>
+    </div>
+
+    <!-- Mobile Slide Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <div class="close-btn" id="closeBtn">&times;</div>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="product.html">Product</a>
+      <!-- <div class="submenu-toggle">Product <i class="fas fa-chevron-down"></i></div>
+       <div class="submenu">
+        <a href="#">Full Body</a>
+        <a href="#">Recliner</a>
+        <a href="#">Heated</a>
+        <a href="#">Compact</a>
+      </div> -->
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+
+    <!-- Desktop Left Dropdowns -->
+    <div class="nav-left">
+      <div class="dropdown">
+       <a href="product.html?category=massage" class="dropbtn">Massage Chair <i class="fas fa-caret-down"></i></a>
+<div class="dropdown-content">
+  <ul class="dropdown-list">
+    <li><a href="Royal_Comfort_Massage_Chair.html">Royal Comfort Massage Chair</a></li>
+    <li><a href="Grand_Serenity_FullBody_Massage_Chair.html">Grand Serenity Full Body Massage Chair</a></li>
+    <li><a href="Aura_Comfort_Massage_Chair.html">Aura Comfort Massage Chair</a></li>
+    <li><a href="Highland_Bliss_Massage_Chair.html">Highland Bliss Massage Chair</a></li>
+    <li><a href="Imperial_Supreme_Massage_Chair.html">Imperial Supreme Massage Chair</a></li>
+    <li><a href="Maestro_Platinum_FullBody_Massage_Chair.html">Maestro Platinum Full Body Massage Chair</a></li>
+    <li><a href="Grand_Aura_Massage_Chair.html">Grand Aura Massage Chair</a></li>
+  </ul>
+</div>
+      </div>
+      <div class="dropdown">
+        <a href="product.html?category=leg" class="dropbtn">Leg Massagers <i class="fas fa-caret-down"></i></a>
+<div class="dropdown-content">
+  <ul class="dropdown-list">
+    <li><a href="Reflex_Swing_ProLegMassager.html">Reflex Swing Pro</a></li>
+    <li><a href="Reflex_Swing_U_ComfortFootMassager.html">Reflex Swing U Comfort</a></li>
+    <li><a href="Leg_And_FootMassager.html">Leg And Foot Massager</a></li>
+  </ul>
+</div>
+      </div>
+    </div>
+
+    <!-- Desktop Center Logo -->
+    <div class="nav-center">
+      <img src="images/logo1.png" alt="Logo" />
+    </div>
+
+    <!-- Desktop Right Links -->
+    <div class="nav-right">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+  </nav>
+
+<script>
+  const hamburger = document.getElementById('hamburger');
+const mobileMenu = document.getElementById('mobileMenu');
+const closeBtn = document.getElementById('closeBtn');
+const submenuToggle = document.querySelector('.submenu-toggle');
+const submenu = document.querySelector('.submenu');
+
+// Open menu
+hamburger.addEventListener('click', () => {
+  mobileMenu.classList.add('active');
+});
+
+// Close menu
+closeBtn.addEventListener('click', () => {
+  mobileMenu.classList.remove('active');
+});
+
+// Toggle submenu
+submenuToggle.addEventListener('click', () => {
+  submenu.style.display = submenu.style.display === 'flex' ? 'none' : 'flex';
+});
+
+</script>  
+
+
+
+<!-- Product Section -->
+<div class="product-container">
+  <div class="image-section">
+    <img id="mainImage" src="ProductImages/Highland_Bliss_Massage_Chair/img1.png" alt="Massage Chair" class="product-image" />
+    
+    <div class="thumbnail-gallery">
+      <img src="ProductImages/Highland_Bliss_Massage_Chair/img1.png" alt="Thumbnail 1" class="thumb active" onclick="changeImage(this)">
+      <img src="ProductImages/Highland_Bliss_Massage_Chair/img2.png" alt="Thumbnail 2" class="thumb" onclick="changeImage(this)">
+      <img src="ProductImages/Highland_Bliss_Massage_Chair/img3.png" alt="Thumbnail 2" class="thumb" onclick="changeImage(this)">
+      <img src="ProductImages/Highland_Bliss_Massage_Chair/img4.png" alt="Thumbnail 2" class="thumb" onclick="changeImage(this)">     
+    </div>
+  </div>
+
+  <div class="details-section">
+    <p class="category">Massage Chairs</p>
+    <h1 class="title">Highland Bliss Massage Chair</h1>
+    <p class="description">
+      The Highland Bliss Massage Chair (Arama Asia model) is a high-end, full-body massage recliner engineered for complete comfort and advanced therapeutic performance. Featuring an intelligent 3D massage mechanism that simulates human touch, its ultra-long S+L track spans approximately 137 cm—from neck to lower buttocks—allowing deep and comprehensive spinal massage. Designed with space-saving technology, the chair slides forward just 5 cm from the wall when reclining, making it practical for modern home layouts. It offers zero gravity positioning to reduce spinal pressure and enhance circulation, and full-body compression via 38 queen-sized airbags. Additional amenities include heating therapy, automatic footrest extension, a large 7″ touch‑screen tablet, AI voice control, built-in wireless charging and USB ports, plus high-fidelity stereo speakers for a serene massage experience. Users can choose from 23 automated massage programs with quick-access buttons and enjoy safety features like short-circuit protection.
+    </p>
+         <!-- Enquire Now Button -->
+<a href="#" class="enquire-button" onclick="redirectToContact()">Enquire Now</a>
+  </div>
+</div>
+<script>
+  function redirectToContact() {
+    const productTitle = document.querySelector('.title').innerText;
+    const encodedTitle = encodeURIComponent(productTitle);
+    // Add #contactForm to scroll to form section after redirection
+    window.location.href = `contact.html?subject=${encodedTitle}#contactForm`;
+  }
+</script>
+
+<!-- Feature Section -->
+<section class="features-section">
+  <div class="container">
+    <h1>Highland Bliss Massage Chair Features</h1>
+    <ul class="features-list">
+      <li>Intelligent Double Massage hand Mechanism.</li>
+      <li>Intelligent 3D Massage Mechanism Simulates human hand movements for lifelike kneading and rolling.</li>
+      <li>Super Long S+L Track, exclusive 137 CM length from neck to buttocks.</li>
+      <li>Space Saving Technology, slide forward only 5cm against the wall.</li>
+      <li>Full body Air Massage, 44  Air Bags surrounding, eliminates fatigue.</li>
+      <li>3D Shoulder Grasp, Knead, Tap and Shiastu.</li>
+      <li>S+L Track System (~137 cm) Extends massage coverage from the neck down through buttocks for full back treatment.</li>
+      <li>Zero Gravity Recline Elevates legs above heart level to reduce spinal compression and improve circulation.</li>
+      <li>Wireless Charging & USB Port Stay powered without interruptions during your massage session.</li>
+      <li>Safety Features Built-in protection against short-circuit and electrical overload.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ✅ New Section: Additional Images -->
+<section class="extra-images">
+  <div class="image-wrapper">
+    <img src="ProductImages/7_20250903_132530_0003.png" alt="Image 1">
+    <img src="ProductImages/6.png" alt="Image 2">
+    <img src="ProductImages/16.png" alt="Image 2">
+  </div>
+</section>
+
+
+<!-- Footer -->
+<div id="footer-container"></div>
+
+<!-- JS Scripts -->
+<script src="footer.js"></script>
+<script src="navbar.js"></script>
+<script>
+  function changeImage(thumbnail) {
+    const mainImg = document.getElementById('mainImage');
+    mainImg.src = thumbnail.src;
+
+    document.querySelectorAll('.thumb').forEach(img => img.classList.remove('active'));
+    thumbnail.classList.add('active');
+  }
+</script>  
+</body>
+</html>

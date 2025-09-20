@@ -1,59 +1,47 @@
  const products = {
       massage: [
         {
-          image: "ProductImages/Kings_Elite_MassageChair/img1.webp",
+          image: "ProductImages/Royal_Comfort_Massage_Chair/img1.png",
           subtitle: "Massage Chair",
           title: "Royal Comfort Massage Chair",
-          link: "Kings_Elite_Massage_Chair.html"
+          link: "Royal_Comfort_Massage_Chair.html"
         },
         {
-          image: "ProductImages/Dream_Relax_FullBodyMassageChair/img1.webp",
+          image: "ProductImages/Grand_Serenity_FullBody_Massage_Chair/img1.webp",
           subtitle: "Massage Chair",
           title: "Grand Serenity Full Body Massage Chair",
-          link: "Dream_Relax_FullBody.html"
+          link: "Grand_Serenity_FullBody_Massage_Chair.html"
         },
         {
-          image: "ProductImages/Legacy_MassageChair/img1.webp",
+          image: "ProductImages/Aura_Comfort_Massage_Chair/img1.webp",
           subtitle: "Massage Chair",
           title: "Aura Comfort Massage Chair",
-          link: "Legacy_Massage_Chair.html"
+          link: "Aura_Comfort_Massage_Chair.html"
         },
         {
-          image: "ProductImages/Highland_MassageChair/img1.webp",
+          image: "ProductImages/Highland_Bliss_Massage_Chair/img1.png",
           subtitle: "Massage Chair",
           title: "Highland Bliss Massage Chair",
-          link: "Highland_Massage_Chair.html"
+          link: "Highland_Bliss_Massage_Chair.html"
         },
         {
-          image: "ProductImages/Imperial_MassageChair/img1.webp",
+          image: "ProductImages/Imperial_Supreme_Massage_Chair/img1.png",
           subtitle: "Massage Chair",
           title: "Imperial Supreme Massage Chair",
-          link: "Imperial_Massage_Chair.html"
+          link: "Imperial_Supreme_Massage_Chair.html"
         },
         {
-          image: "ProductImages/Maestro_FullBodyMassageChair/img1.webp",
+          image: "ProductImages/Maestro_Platinum_FullBody_Massage_Chair/img1.png",
           subtitle: "Massage Chair",
           title: "Maestro Platinum Full Body Massage Chair",
-          link: "Maestro_Full_Body.html"
+          link: "Maestro_Platinum_FullBody_Massage_Chair.html"
         },
         {
-          image: "ProductImages/Admiral_MassageChair/img1.webp",
+          image: "ProductImages/Grand_Aura_Massage_Chair/img1.png",
           subtitle: "Massage Chair",
           title: "Grand Aura Massage Chair",
-          link: "Admiral_Massage_Chair.html"
+          link: "Grand_Aura_Massage_Chair.html"
         },
-        {
-          image: "ProductImages/Zero_GravityMassageChair/img1.webp",
-          subtitle: "Massage Chair",
-          title: "Infinity Relax Zero Gravity Chair",
-          link: "Zero_Gravity_MassageChair.html"
-        },
-        {
-          image: "ProductImages/Isnazz_MassageChair/img1.webp",
-          subtitle: "Massage Chair",
-          title: "Majestic Comfort Massage Chair",
-          link: "Isnazz_Massage_Chair.html"
-        }
       ],
       leg: [
         {
@@ -127,6 +115,42 @@
           subtitle: "Massage Chair Cover",
           title: "Massage Chair Cover",
           link: "Massage_ChairCover.html"
+        },
+        {
+          image: "ProductImages/Dancing_Queen/img1.webp",
+          subtitle: "Massage Chair Cover",
+          title: "Dancing Queen",
+          link: "Dancing_Queen.html"
+        },
+        {
+          image: "ProductImages/Knee_Lover_Massager/img1.webp",
+          subtitle: "Massage Chair Cover",
+          title: "Knee Lover Massager",
+          link: "Knee_Lover_Massager.html"
+        },
+        {
+          image: "ProductImages/Eye_Massager/img1.webp",
+          subtitle: "Massage Chair Cover",
+          title: "Eye Massager",
+          link: "Eye_Massager.html"
+        },
+        {
+          image: "ProductImages/Magic_Ring_Neck_Massager/img1.webp",
+          subtitle: "Massage Chair Cover",
+          title: "Magic Ring Neck Massager",
+          link: "Magic_Ring_Neck_Massager.html"
+        },
+        {
+          image: "ProductImages/Fascia_Gun_Massager/img1.webp",
+          subtitle: "Massage Chair Cover",
+          title: "Fascia Gun Massager",
+          link: "Fascia_Gun_Massager.html"
+        },
+        {
+          image: "ProductImages/Tens_Massager/img1.webp",
+          subtitle: "Massage Chair Cover",
+          title: "Tens Massager",
+          link: "Tens_Massager.html"
         }
       ]
     };
