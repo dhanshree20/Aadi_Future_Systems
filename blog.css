@@ -404,6 +404,9 @@ body {
   font-size: 20px;
   color: #000;
   font-family: Sans-serif;
+    white-space: nowrap;        /* Force one line */
+  overflow: hidden;           /* Hide overflow */
+  text-overflow: ellipsis;
 }
 
 .blog-card p {
