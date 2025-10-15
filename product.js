@@ -63,7 +63,7 @@
           link: "Leg_And_FootMassager.html"
         }
       ],
-      foot: [
+      other: [
         {
           image: "ProductImages/Kansya_Thali_FootMassageMachine/img1.webp",
           subtitle: "Foot Massager",
@@ -76,81 +76,59 @@
           title: "Kansya 2 Wati Foot Massager",
           link: "Kansya_2_WatiFootMassager.html"
         },
-      ],
-      gun: [
-        {
-          image: "ProductImages/Body_MassageGun/img1.webp",
-          subtitle: "Massage Gun",
-          title: "Body Massage Gun",
-          link: "Body_MassageGun.html"
-        }
-      ],
-      back: [
-        {
-          image: "ProductImages/Tepid_BackMassager/img1.webp",
-          subtitle: "Back Massager",
-          title: "Tepid Back Massager",
-          link: "Tepid_BackMassager.html"
-        }
-      ],
-      exercise: [
-        {
-          image: "ProductImages/Gym_VibrationMachine/img1.webp",
-          subtitle: "Exercise Machine",
-          title: "Gym Vibration Machine",
-          link: "Gym_VibrationMachine.html"
-        }
-      ],
-      pulse: [
-        {
-          image: "ProductImages/Electronic_PulseMassager/img1.webp",
-          subtitle: "Pulse Massager",
-          title: "Electronic Pulse Massager",
-          link: "Electronic_PulseMassager.html"
-        }
-      ],
-      other: [
         {
           image: "ProductImages/Massage_ChairCover/img1.webp",
-          subtitle: "Massage Chair Cover",
+          subtitle: "Other Massager",
           title: "Massage Chair Cover",
           link: "Massage_ChairCover.html"
         },
         {
           image: "ProductImages/Dancing_Queen/img1.webp",
-          subtitle: "Massage Chair Cover",
+          subtitle: "Other Massager",
           title: "Dancing Queen",
           link: "Dancing_Queen.html"
         },
         {
           image: "ProductImages/Knee_Lover_Massager/img1.webp",
-          subtitle: "Massage Chair Cover",
+          subtitle: "Other Massager",
           title: "Knee Lover Massager",
           link: "Knee_Lover_Massager.html"
         },
         {
           image: "ProductImages/Eye_Massager/img1.webp",
-          subtitle: "Massage Chair Cover",
+          subtitle: "Other Massager",
           title: "Eye Massager",
           link: "Eye_Massager.html"
         },
         {
-          image: "ProductImages/Magic_Ring_Neck_Massager/img1.webp",
-          subtitle: "Massage Chair Cover",
-          title: "Magic Ring Neck Massager",
-          link: "Magic_Ring_Neck_Massager.html"
-        },
-        {
           image: "ProductImages/Fascia_Gun_Massager/img1.webp",
-          subtitle: "Massage Chair Cover",
+          subtitle: "Gun Massage",
           title: "Fascia Gun Massager",
           link: "Fascia_Gun_Massager.html"
         },
         {
           image: "ProductImages/Tens_Massager/img1.webp",
-          subtitle: "Massage Chair Cover",
+          subtitle: "Other Massager",
           title: "Tens Massager",
           link: "Tens_Massager.html"
+        },
+        {
+          image: "ProductImages/Gym_VibrationMachine/img1.webp",
+          subtitle: "Exercise Machine",
+          title: "Gym Vibration Machine",
+          link: "Gym_VibrationMachine.html"
+        },
+        {
+          image: "ProductImages/Tepid_BackMassager/img1.webp",
+          subtitle: "Back Massager",
+          title: "Tepid Back Massager",
+          link: "Tepid_BackMassager.html"
+        },
+        {
+          image: "ProductImages/Body_MassageGun/img1.webp",
+          subtitle: "Massage Gun",
+          title: "Body Massage Gun",
+          link: "Body_MassageGun.html"
         }
       ]
     };
