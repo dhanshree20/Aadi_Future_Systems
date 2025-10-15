@@ -47,20 +47,20 @@
         {
           image: "ProductImages/Reflex_Swing_ProLegMassager/img1.webp",
           subtitle: "Leg Massager",
-          title: "Reflex Swing Pro",
-          link: "Reflex_Swing_ProLegMassager.html"
+          title: "LegHarmony",
+          link: "LegHarmony.html"
         },
         {
           image: "ProductImages/Reflex_Swing_U_ComfortFootMassager/img1.webp",
           subtitle: "Leg Massager",
-          title: "Reflex Swing U Comfort ",
-          link: "Reflex_Swing_U_ComfortFootMassager.html"
+          title: "LegHarmony U Comfort ",
+          link: "LegHarmony_U_Comfort.html"
         },
         {
           image: "ProductImages/Leg_And_FootMassager/img1.webp",
           subtitle: "Leg Massager",
-          title: "Leg And Foot Massager",
-          link: "Leg_And_FootMassager.html"
+          title: "Foot & Leg Revive",
+          link: "Foot&Leg_Revive.html"
         }
       ],
       other: [
