@@ -95,13 +95,13 @@
           link: "Knee_Lover_Massager.html"
         },
         {
-          image: "ProductImages/Eye_Massager/img1.webp",
+          image: "New_product_img/Eye_msg_3.jpg",
           subtitle: "Other Massager",
           title: "Eye Massager",
           link: "Eye_Massager.html"
         },
         {
-          image: "ProductImages/Fascia_Gun_Massager/img1.webp",
+          image: "New_product_img/Facia_gun_2.jpg",
           subtitle: "Gun Massage",
           title: "Fascia Gun Massager",
           link: "Fascia_Gun_Massager.html"
