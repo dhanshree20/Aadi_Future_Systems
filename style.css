@@ -871,6 +871,12 @@ body {
   color: #d9251c;
 }
 
+@media screen and (max-width: 1152px) {
+  .product-btn {
+    margin-left: 500px;
+  }
+}
+
 /* ========== RESPONSIVE CSS ========== */
 
 @media screen and (max-width: 1024px) {

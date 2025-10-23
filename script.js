@@ -28,25 +28,23 @@
 
 
 // Testimonials Section
+ const container = document.getElementById('testimonialSlider');
 
-  const container = document.getElementById('testimonialSlider');
+    // Clone for infinite loop effect
+    const originalCards = Array.from(container.children);
+    originalCards.forEach(card => {
+      const clone = card.cloneNode(true);
+      container.appendChild(clone);
+    });
 
-  // Step 1: Clone all cards (for seamless loop)
-  const originalCards = Array.from(container.children);
-  originalCards.forEach(card => {
-    const clone = card.cloneNode(true);
-    container.appendChild(clone);
-  });
-
-  // Step 2: Auto Scroll
-  let scrollSpeed = 0.5; // Adjust speed
-  let autoScroll = setInterval(() => {
-    container.scrollLeft += scrollSpeed;
-
-    // Step 3: If reached end of original cards, reset scrollLeft smoothly
-    if (container.scrollLeft >= container.scrollWidth / 2) {
-      container.scrollLeft = 0;
+    // Auto Scroll
+    let scrollSpeed = 0.5; // Adjust for faster/slower scroll
+    function autoScroll() {
+      container.scrollLeft += scrollSpeed;
+      if (container.scrollLeft >= container.scrollWidth / 2) {
+        container.scrollLeft = 0;
+      }
+      requestAnimationFrame(autoScroll);
     }
-  }, 10);
 
-
+    autoScroll(); // Start scrolling automatically

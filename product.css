@@ -268,9 +268,9 @@ body {
     }
 
     .hero-wrapper img {
-      width: 1550px;
-      height: 600px;
-      display: block;
+      width: 100%;
+    height: 600px;
+    display: block;
     }
 
         /* ✅ Mobile L: 600px–767px */

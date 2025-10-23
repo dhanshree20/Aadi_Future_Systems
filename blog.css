@@ -265,9 +265,9 @@ body {
     }
 
     .blog-hero-wrapper img {
-      width: 1550px;
-      height: 600px;
-      display: block;
+      width: 100%;
+    height: auto;
+    display: block;
     }
 
         /* ✅ Mobile L: 600px–767px */
@@ -445,13 +445,24 @@ body {
   .read-more {
     font-size: 14px;
   }
+
+  .blog-card {
+    padding: 0px 20px;
+  }
 }
 
 /* Small devices (Mobile L and below, 480px and below) */
 @media (max-width: 480px) {
   .blog-section {
-    padding: 30px 10px;
-    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding: 25px 10px;
+  }
+
+  .blog-card {
+    width: 100%;
+    max-width: 400px;
   }
 
   .blog-card h3 {
